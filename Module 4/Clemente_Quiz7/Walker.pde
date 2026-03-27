@@ -2,7 +2,7 @@ public class Walker
 {
  
   
-  float x = random(-510, 510);// setting x and y variables for position PVector with gaussian method 
+  float x = random(-510, 510);// setting x and y variables for position PVector 
   float y = random(-360, 360);
   public PVector position = new PVector(x, y);
   public PVector velocity = new PVector();
