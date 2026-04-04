@@ -52,7 +52,6 @@ void draw()
      w.render();
      w.update();
  
-     //walkers[i].applyForce(wind);
      w.applyForce(wind);
      
      w.bounce();
